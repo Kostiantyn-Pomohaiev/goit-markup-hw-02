@@ -56,7 +56,9 @@ a {
 }
 
 
-.address {}
+address { 
+    font-style: normal;
+}
 
 .address-list {}
 
@@ -77,6 +79,10 @@ a {
     color: #404bbf;
 }
 
+.address-list-email:focus {
+    color: #404bbf;
+}
+
 
 .address-list-tel {
     font-family: "Roboto", sans-serif;
@@ -88,6 +94,10 @@ a {
 }
 
 .address-list-tel:hover {
+    color: #404bbf;
+}
+
+.address-list-tel:focus {
     color: #404bbf;
 }
 
