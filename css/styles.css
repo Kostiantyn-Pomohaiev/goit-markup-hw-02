@@ -51,7 +51,8 @@ a {
     color: #2e2f42;
 }
 
-.menu-link:hover {
+.menu-link:hover,
+.menu-link:focus {
     color: #404bbf;
 }
 
@@ -65,7 +66,7 @@ address {
 .address-list-item {
 }
 
-.address-list-email {
+.address-list-link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -75,11 +76,11 @@ address {
 }
 
 
-.address-list-email:hover {
+.address-list-link:hover {
     color: #404bbf;
 }
 
-.address-list-email:focus {
+.address-list-link:focus {
     color: #404bbf;
 }
 
